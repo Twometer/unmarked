@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Twometer/unmarked/issues"
   },
-  "homepage": "https://github.com/Twometer/unmarked#readme"
+  "homepage": "https://github.com/Twometer/unmarked#readme",
+  "dependencies": {
+    "domino": "^2.1.6"
+  }
 }
