@@ -8,5 +8,7 @@ test('round trip is equal', () => {
     let reconstructed = toMarkdown(baseline)
     let validation = marked.parse(reconstructed)
 
+    fs.writeFileSync('test_data/result.md', reconstructed)
+
     expect(validation).toBe(baseline)
 })
