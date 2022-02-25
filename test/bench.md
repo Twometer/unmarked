@@ -15,6 +15,10 @@ This file exists to test the Unmarked engine. A round trip marked->unmarked->mar
 ####### Subheading 6
 
 Now, let's test _italics_ and **bold** and **_both_**. We also have _this_ and `code`. Next up, [links](https://google.com) and ![Images](https://img.shields.io/badge/test-badge-blue). But, \`this is not code \`.
+This paragraph continues here  
+And here with a linebreak
+
+But here is a new one. And this one has ~~strikeout~~ formatting
 
 # Lists
 
